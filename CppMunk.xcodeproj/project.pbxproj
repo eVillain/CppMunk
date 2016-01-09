@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D958BB111C374458006C0BA1 /* chipmunk.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAD71C374457006C0BA1 /* chipmunk.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB121C374458006C0BA1 /* chipmunk_ffi.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAD81C374457006C0BA1 /* chipmunk_ffi.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB131C374458006C0BA1 /* chipmunk_private.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAD91C374457006C0BA1 /* chipmunk_private.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB141C374458006C0BA1 /* chipmunk_structs.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BADA1C374457006C0BA1 /* chipmunk_structs.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB151C374458006C0BA1 /* chipmunk_types.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BADB1C374457006C0BA1 /* chipmunk_types.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB161C374458006C0BA1 /* chipmunk_unsafe.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BADC1C374457006C0BA1 /* chipmunk_unsafe.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB171C374458006C0BA1 /* cpArbiter.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BADD1C374457006C0BA1 /* cpArbiter.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB181C374458006C0BA1 /* cpBB.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BADE1C374457006C0BA1 /* cpBB.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB191C374458006C0BA1 /* cpBody.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BADF1C374457006C0BA1 /* cpBody.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB1A1C374458006C0BA1 /* cpConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAE01C374457006C0BA1 /* cpConstraint.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB1B1C374458006C0BA1 /* cpDampedRotarySpring.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAE11C374457006C0BA1 /* cpDampedRotarySpring.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB1C1C374458006C0BA1 /* cpDampedSpring.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAE21C374457006C0BA1 /* cpDampedSpring.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB1D1C374458006C0BA1 /* cpGearJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAE31C374457006C0BA1 /* cpGearJoint.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB1E1C374458006C0BA1 /* cpGrooveJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAE41C374457006C0BA1 /* cpGrooveJoint.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB1F1C374458006C0BA1 /* cpHastySpace.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAE51C374457006C0BA1 /* cpHastySpace.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB201C374458006C0BA1 /* cpMarch.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAE61C374457006C0BA1 /* cpMarch.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB211C374458006C0BA1 /* cpPinJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAE71C374457006C0BA1 /* cpPinJoint.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB221C374458006C0BA1 /* cpPivotJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAE81C374457006C0BA1 /* cpPivotJoint.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB231C374458006C0BA1 /* cpPolyline.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAE91C374457006C0BA1 /* cpPolyline.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB241C374458006C0BA1 /* cpPolyShape.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAEA1C374457006C0BA1 /* cpPolyShape.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB251C374458006C0BA1 /* cpRatchetJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAEB1C374457006C0BA1 /* cpRatchetJoint.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB261C374458006C0BA1 /* cpRobust.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAEC1C374457006C0BA1 /* cpRobust.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB271C374458006C0BA1 /* cpRotaryLimitJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAED1C374457006C0BA1 /* cpRotaryLimitJoint.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB281C374458006C0BA1 /* cpShape.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAEE1C374457006C0BA1 /* cpShape.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB291C374458006C0BA1 /* cpSimpleMotor.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAEF1C374457006C0BA1 /* cpSimpleMotor.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB2A1C374458006C0BA1 /* cpSlideJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAF01C374457006C0BA1 /* cpSlideJoint.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB2B1C374458006C0BA1 /* cpSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAF11C374457006C0BA1 /* cpSpace.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB2C1C374458006C0BA1 /* cpSpatialIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAF21C374457006C0BA1 /* cpSpatialIndex.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB2D1C374458006C0BA1 /* cpTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAF31C374457006C0BA1 /* cpTransform.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB2E1C374458006C0BA1 /* cpVect.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAF41C374457006C0BA1 /* cpVect.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB2F1C374458006C0BA1 /* libChipmunk-Mac.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D958BAF51C374457006C0BA1 /* libChipmunk-Mac.a */; settings = {ASSET_TAGS = (); }; };
+		D958BB301C374458006C0BA1 /* Arbiter.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAFA1C374457006C0BA1 /* Arbiter.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB311C374458006C0BA1 /* Body.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAFB1C374457006C0BA1 /* Body.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB321C374458006C0BA1 /* BoundingBox.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAFC1C374457006C0BA1 /* BoundingBox.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB331C374458006C0BA1 /* CircleShape.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAFD1C374457006C0BA1 /* CircleShape.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB341C374458006C0BA1 /* Constraint.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAFE1C374457006C0BA1 /* Constraint.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB351C374458006C0BA1 /* LayerMask.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BAFF1C374457006C0BA1 /* LayerMask.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB361C374458006C0BA1 /* PolyShape.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BB001C374457006C0BA1 /* PolyShape.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB371C374458006C0BA1 /* SegmentShape.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BB011C374457006C0BA1 /* SegmentShape.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB381C374458006C0BA1 /* Shape.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BB021C374457006C0BA1 /* Shape.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB391C374458006C0BA1 /* Space.h in Headers */ = {isa = PBXBuildFile; fileRef = D958BB031C374457006C0BA1 /* Space.h */; settings = {ASSET_TAGS = (); }; };
+		D958BB3B1C374458006C0BA1 /* Arbiter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D958BB071C374458006C0BA1 /* Arbiter.cpp */; settings = {ASSET_TAGS = (); }; };
+		D958BB3C1C374458006C0BA1 /* Body.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D958BB081C374458006C0BA1 /* Body.cpp */; settings = {ASSET_TAGS = (); }; };
+		D958BB3D1C374458006C0BA1 /* BoundingBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D958BB091C374458006C0BA1 /* BoundingBox.cpp */; settings = {ASSET_TAGS = (); }; };
+		D958BB3E1C374458006C0BA1 /* CircleShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D958BB0A1C374458006C0BA1 /* CircleShape.cpp */; settings = {ASSET_TAGS = (); }; };
+		D958BB3F1C374458006C0BA1 /* Constraint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D958BB0B1C374458006C0BA1 /* Constraint.cpp */; settings = {ASSET_TAGS = (); }; };
+		D958BB401C374458006C0BA1 /* LayerMask.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D958BB0C1C374458006C0BA1 /* LayerMask.cpp */; settings = {ASSET_TAGS = (); }; };
+		D958BB411C374458006C0BA1 /* PolyShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D958BB0D1C374458006C0BA1 /* PolyShape.cpp */; settings = {ASSET_TAGS = (); }; };
+		D958BB421C374458006C0BA1 /* SegmentShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D958BB0E1C374458006C0BA1 /* SegmentShape.cpp */; settings = {ASSET_TAGS = (); }; };
+		D958BB431C374458006C0BA1 /* Shape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D958BB0F1C374458006C0BA1 /* Shape.cpp */; settings = {ASSET_TAGS = (); }; };
+		D958BB441C374458006C0BA1 /* Space.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D958BB101C374458006C0BA1 /* Space.cpp */; settings = {ASSET_TAGS = (); }; };
+		D99FC50F1C410EB7009364FA /* DampedRotarySpring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D99FC5051C410EB7009364FA /* DampedRotarySpring.cpp */; settings = {ASSET_TAGS = (); }; };
+		D99FC5101C410EB7009364FA /* DampedSpring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D99FC5061C410EB7009364FA /* DampedSpring.cpp */; settings = {ASSET_TAGS = (); }; };
+		D99FC5111C410EB7009364FA /* GearJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D99FC5071C410EB7009364FA /* GearJoint.cpp */; settings = {ASSET_TAGS = (); }; };
+		D99FC5121C410EB7009364FA /* GrooveJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D99FC5081C410EB7009364FA /* GrooveJoint.cpp */; settings = {ASSET_TAGS = (); }; };
+		D99FC5131C410EB7009364FA /* PinJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D99FC5091C410EB7009364FA /* PinJoint.cpp */; settings = {ASSET_TAGS = (); }; };
+		D99FC5141C410EB7009364FA /* PivotJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D99FC50A1C410EB7009364FA /* PivotJoint.cpp */; settings = {ASSET_TAGS = (); }; };
+		D99FC5151C410EB7009364FA /* RatchetJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D99FC50B1C410EB7009364FA /* RatchetJoint.cpp */; settings = {ASSET_TAGS = (); }; };
+		D99FC5161C410EB7009364FA /* RotaryLimitJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D99FC50C1C410EB7009364FA /* RotaryLimitJoint.cpp */; settings = {ASSET_TAGS = (); }; };
+		D99FC5171C410EB7009364FA /* SimpleMotor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D99FC50D1C410EB7009364FA /* SimpleMotor.cpp */; settings = {ASSET_TAGS = (); }; };
+		D99FC5181C410EB7009364FA /* SlideJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D99FC50E1C410EB7009364FA /* SlideJoint.cpp */; settings = {ASSET_TAGS = (); }; };
+		D99FC5231C410ECA009364FA /* DampedRotarySpring.h in Headers */ = {isa = PBXBuildFile; fileRef = D99FC5191C410ECA009364FA /* DampedRotarySpring.h */; settings = {ASSET_TAGS = (); }; };
+		D99FC5241C410ECA009364FA /* DampedSpring.h in Headers */ = {isa = PBXBuildFile; fileRef = D99FC51A1C410ECA009364FA /* DampedSpring.h */; settings = {ASSET_TAGS = (); }; };
+		D99FC5251C410ECA009364FA /* GearJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = D99FC51B1C410ECA009364FA /* GearJoint.h */; settings = {ASSET_TAGS = (); }; };
+		D99FC5261C410ECA009364FA /* GrooveJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = D99FC51C1C410ECA009364FA /* GrooveJoint.h */; settings = {ASSET_TAGS = (); }; };
+		D99FC5271C410ECA009364FA /* PinJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = D99FC51D1C410ECA009364FA /* PinJoint.h */; settings = {ASSET_TAGS = (); }; };
+		D99FC5281C410ECA009364FA /* SimpleMotor.h in Headers */ = {isa = PBXBuildFile; fileRef = D99FC51E1C410ECA009364FA /* SimpleMotor.h */; settings = {ASSET_TAGS = (); }; };
+		D99FC5291C410ECA009364FA /* SlideJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = D99FC51F1C410ECA009364FA /* SlideJoint.h */; settings = {ASSET_TAGS = (); }; };
+		D99FC52A1C410ECA009364FA /* PivotJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = D99FC5201C410ECA009364FA /* PivotJoint.h */; settings = {ASSET_TAGS = (); }; };
+		D99FC52B1C410ECA009364FA /* RatchetJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = D99FC5211C410ECA009364FA /* RatchetJoint.h */; settings = {ASSET_TAGS = (); }; };
+		D99FC52C1C410ECA009364FA /* RotaryLimitJoint.h in Headers */ = {isa = PBXBuildFile; fileRef = D99FC5221C410ECA009364FA /* RotaryLimitJoint.h */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D958BACE1C374412006C0BA1 /* libCppMunk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCppMunk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D958BAD71C374457006C0BA1 /* chipmunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk.h; sourceTree = "<group>"; };
+		D958BAD81C374457006C0BA1 /* chipmunk_ffi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_ffi.h; sourceTree = "<group>"; };
+		D958BAD91C374457006C0BA1 /* chipmunk_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_private.h; sourceTree = "<group>"; };
+		D958BADA1C374457006C0BA1 /* chipmunk_structs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_structs.h; sourceTree = "<group>"; };
+		D958BADB1C374457006C0BA1 /* chipmunk_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_types.h; sourceTree = "<group>"; };
+		D958BADC1C374457006C0BA1 /* chipmunk_unsafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chipmunk_unsafe.h; sourceTree = "<group>"; };
+		D958BADD1C374457006C0BA1 /* cpArbiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpArbiter.h; sourceTree = "<group>"; };
+		D958BADE1C374457006C0BA1 /* cpBB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpBB.h; sourceTree = "<group>"; };
+		D958BADF1C374457006C0BA1 /* cpBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpBody.h; sourceTree = "<group>"; };
+		D958BAE01C374457006C0BA1 /* cpConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpConstraint.h; sourceTree = "<group>"; };
+		D958BAE11C374457006C0BA1 /* cpDampedRotarySpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpDampedRotarySpring.h; sourceTree = "<group>"; };
+		D958BAE21C374457006C0BA1 /* cpDampedSpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpDampedSpring.h; sourceTree = "<group>"; };
+		D958BAE31C374457006C0BA1 /* cpGearJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpGearJoint.h; sourceTree = "<group>"; };
+		D958BAE41C374457006C0BA1 /* cpGrooveJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpGrooveJoint.h; sourceTree = "<group>"; };
+		D958BAE51C374457006C0BA1 /* cpHastySpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpHastySpace.h; sourceTree = "<group>"; };
+		D958BAE61C374457006C0BA1 /* cpMarch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpMarch.h; sourceTree = "<group>"; };
+		D958BAE71C374457006C0BA1 /* cpPinJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPinJoint.h; sourceTree = "<group>"; };
+		D958BAE81C374457006C0BA1 /* cpPivotJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPivotJoint.h; sourceTree = "<group>"; };
+		D958BAE91C374457006C0BA1 /* cpPolyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPolyline.h; sourceTree = "<group>"; };
+		D958BAEA1C374457006C0BA1 /* cpPolyShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpPolyShape.h; sourceTree = "<group>"; };
+		D958BAEB1C374457006C0BA1 /* cpRatchetJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpRatchetJoint.h; sourceTree = "<group>"; };
+		D958BAEC1C374457006C0BA1 /* cpRobust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpRobust.h; sourceTree = "<group>"; };
+		D958BAED1C374457006C0BA1 /* cpRotaryLimitJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpRotaryLimitJoint.h; sourceTree = "<group>"; };
+		D958BAEE1C374457006C0BA1 /* cpShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpShape.h; sourceTree = "<group>"; };
+		D958BAEF1C374457006C0BA1 /* cpSimpleMotor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSimpleMotor.h; sourceTree = "<group>"; };
+		D958BAF01C374457006C0BA1 /* cpSlideJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSlideJoint.h; sourceTree = "<group>"; };
+		D958BAF11C374457006C0BA1 /* cpSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpace.h; sourceTree = "<group>"; };
+		D958BAF21C374457006C0BA1 /* cpSpatialIndex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpSpatialIndex.h; sourceTree = "<group>"; };
+		D958BAF31C374457006C0BA1 /* cpTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpTransform.h; sourceTree = "<group>"; };
+		D958BAF41C374457006C0BA1 /* cpVect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cpVect.h; sourceTree = "<group>"; };
+		D958BAF51C374457006C0BA1 /* libChipmunk-Mac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libChipmunk-Mac.a"; sourceTree = "<group>"; };
+		D958BAF61C374457006C0BA1 /* CppMunk.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CppMunk.xcodeproj; sourceTree = "<group>"; };
+		D958BAFA1C374457006C0BA1 /* Arbiter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Arbiter.h; sourceTree = "<group>"; };
+		D958BAFB1C374457006C0BA1 /* Body.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Body.h; sourceTree = "<group>"; };
+		D958BAFC1C374457006C0BA1 /* BoundingBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoundingBox.h; sourceTree = "<group>"; };
+		D958BAFD1C374457006C0BA1 /* CircleShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleShape.h; sourceTree = "<group>"; };
+		D958BAFE1C374457006C0BA1 /* Constraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constraint.h; sourceTree = "<group>"; };
+		D958BAFF1C374457006C0BA1 /* LayerMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerMask.h; sourceTree = "<group>"; };
+		D958BB001C374457006C0BA1 /* PolyShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolyShape.h; sourceTree = "<group>"; };
+		D958BB011C374457006C0BA1 /* SegmentShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentShape.h; sourceTree = "<group>"; };
+		D958BB021C374457006C0BA1 /* Shape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		D958BB031C374457006C0BA1 /* Space.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Space.h; sourceTree = "<group>"; };
+		D958BB041C374458006C0BA1 /* macstatic-cppmunk.command */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = "macstatic-cppmunk.command"; sourceTree = "<group>"; };
+		D958BB051C374458006C0BA1 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D958BB071C374458006C0BA1 /* Arbiter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Arbiter.cpp; sourceTree = "<group>"; };
+		D958BB081C374458006C0BA1 /* Body.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Body.cpp; sourceTree = "<group>"; };
+		D958BB091C374458006C0BA1 /* BoundingBox.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BoundingBox.cpp; sourceTree = "<group>"; };
+		D958BB0A1C374458006C0BA1 /* CircleShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CircleShape.cpp; sourceTree = "<group>"; };
+		D958BB0B1C374458006C0BA1 /* Constraint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Constraint.cpp; sourceTree = "<group>"; };
+		D958BB0C1C374458006C0BA1 /* LayerMask.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LayerMask.cpp; sourceTree = "<group>"; };
+		D958BB0D1C374458006C0BA1 /* PolyShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PolyShape.cpp; sourceTree = "<group>"; };
+		D958BB0E1C374458006C0BA1 /* SegmentShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SegmentShape.cpp; sourceTree = "<group>"; };
+		D958BB0F1C374458006C0BA1 /* Shape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shape.cpp; sourceTree = "<group>"; };
+		D958BB101C374458006C0BA1 /* Space.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Space.cpp; sourceTree = "<group>"; };
+		D99FC5051C410EB7009364FA /* DampedRotarySpring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DampedRotarySpring.cpp; sourceTree = "<group>"; };
+		D99FC5061C410EB7009364FA /* DampedSpring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DampedSpring.cpp; sourceTree = "<group>"; };
+		D99FC5071C410EB7009364FA /* GearJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GearJoint.cpp; sourceTree = "<group>"; };
+		D99FC5081C410EB7009364FA /* GrooveJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GrooveJoint.cpp; sourceTree = "<group>"; };
+		D99FC5091C410EB7009364FA /* PinJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PinJoint.cpp; sourceTree = "<group>"; };
+		D99FC50A1C410EB7009364FA /* PivotJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PivotJoint.cpp; sourceTree = "<group>"; };
+		D99FC50B1C410EB7009364FA /* RatchetJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RatchetJoint.cpp; sourceTree = "<group>"; };
+		D99FC50C1C410EB7009364FA /* RotaryLimitJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RotaryLimitJoint.cpp; sourceTree = "<group>"; };
+		D99FC50D1C410EB7009364FA /* SimpleMotor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleMotor.cpp; sourceTree = "<group>"; };
+		D99FC50E1C410EB7009364FA /* SlideJoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SlideJoint.cpp; sourceTree = "<group>"; };
+		D99FC5191C410ECA009364FA /* DampedRotarySpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DampedRotarySpring.h; sourceTree = "<group>"; };
+		D99FC51A1C410ECA009364FA /* DampedSpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DampedSpring.h; sourceTree = "<group>"; };
+		D99FC51B1C410ECA009364FA /* GearJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GearJoint.h; sourceTree = "<group>"; };
+		D99FC51C1C410ECA009364FA /* GrooveJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrooveJoint.h; sourceTree = "<group>"; };
+		D99FC51D1C410ECA009364FA /* PinJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinJoint.h; sourceTree = "<group>"; };
+		D99FC51E1C410ECA009364FA /* SimpleMotor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMotor.h; sourceTree = "<group>"; };
+		D99FC51F1C410ECA009364FA /* SlideJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideJoint.h; sourceTree = "<group>"; };
+		D99FC5201C410ECA009364FA /* PivotJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PivotJoint.h; sourceTree = "<group>"; };
+		D99FC5211C410ECA009364FA /* RatchetJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatchetJoint.h; sourceTree = "<group>"; };
+		D99FC5221C410ECA009364FA /* RotaryLimitJoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotaryLimitJoint.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D958BACB1C374412006C0BA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D958BB2F1C374458006C0BA1 /* libChipmunk-Mac.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D958BAC51C374411006C0BA1 = {
+			isa = PBXGroup;
+			children = (
+				D958BAD51C374457006C0BA1 /* CppMunk */,
+				D958BACF1C374412006C0BA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D958BACF1C374412006C0BA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D958BACE1C374412006C0BA1 /* libCppMunk.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D958BAD51C374457006C0BA1 /* CppMunk */ = {
+			isa = PBXGroup;
+			children = (
+				D958BAD61C374457006C0BA1 /* chipmunk */,
+				D958BAF61C374457006C0BA1 /* CppMunk.xcodeproj */,
+				D958BAF91C374457006C0BA1 /* include */,
+				D958BB041C374458006C0BA1 /* macstatic-cppmunk.command */,
+				D958BB051C374458006C0BA1 /* README.md */,
+				D958BB061C374458006C0BA1 /* src */,
+			);
+			name = CppMunk;
+			sourceTree = "<group>";
+		};
+		D958BAD61C374457006C0BA1 /* chipmunk */ = {
+			isa = PBXGroup;
+			children = (
+				D958BAD71C374457006C0BA1 /* chipmunk.h */,
+				D958BAD81C374457006C0BA1 /* chipmunk_ffi.h */,
+				D958BAD91C374457006C0BA1 /* chipmunk_private.h */,
+				D958BADA1C374457006C0BA1 /* chipmunk_structs.h */,
+				D958BADB1C374457006C0BA1 /* chipmunk_types.h */,
+				D958BADC1C374457006C0BA1 /* chipmunk_unsafe.h */,
+				D958BADD1C374457006C0BA1 /* cpArbiter.h */,
+				D958BADE1C374457006C0BA1 /* cpBB.h */,
+				D958BADF1C374457006C0BA1 /* cpBody.h */,
+				D958BAE01C374457006C0BA1 /* cpConstraint.h */,
+				D958BAE11C374457006C0BA1 /* cpDampedRotarySpring.h */,
+				D958BAE21C374457006C0BA1 /* cpDampedSpring.h */,
+				D958BAE31C374457006C0BA1 /* cpGearJoint.h */,
+				D958BAE41C374457006C0BA1 /* cpGrooveJoint.h */,
+				D958BAE51C374457006C0BA1 /* cpHastySpace.h */,
+				D958BAE61C374457006C0BA1 /* cpMarch.h */,
+				D958BAE71C374457006C0BA1 /* cpPinJoint.h */,
+				D958BAE81C374457006C0BA1 /* cpPivotJoint.h */,
+				D958BAE91C374457006C0BA1 /* cpPolyline.h */,
+				D958BAEA1C374457006C0BA1 /* cpPolyShape.h */,
+				D958BAEB1C374457006C0BA1 /* cpRatchetJoint.h */,
+				D958BAEC1C374457006C0BA1 /* cpRobust.h */,
+				D958BAED1C374457006C0BA1 /* cpRotaryLimitJoint.h */,
+				D958BAEE1C374457006C0BA1 /* cpShape.h */,
+				D958BAEF1C374457006C0BA1 /* cpSimpleMotor.h */,
+				D958BAF01C374457006C0BA1 /* cpSlideJoint.h */,
+				D958BAF11C374457006C0BA1 /* cpSpace.h */,
+				D958BAF21C374457006C0BA1 /* cpSpatialIndex.h */,
+				D958BAF31C374457006C0BA1 /* cpTransform.h */,
+				D958BAF41C374457006C0BA1 /* cpVect.h */,
+				D958BAF51C374457006C0BA1 /* libChipmunk-Mac.a */,
+			);
+			path = chipmunk;
+			sourceTree = "<group>";
+		};
+		D958BAF71C374457006C0BA1 /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D958BAF91C374457006C0BA1 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				D958BAFA1C374457006C0BA1 /* Arbiter.h */,
+				D958BAFB1C374457006C0BA1 /* Body.h */,
+				D958BAFC1C374457006C0BA1 /* BoundingBox.h */,
+				D958BAFD1C374457006C0BA1 /* CircleShape.h */,
+				D958BAFE1C374457006C0BA1 /* Constraint.h */,
+				D958BAFF1C374457006C0BA1 /* LayerMask.h */,
+				D958BB001C374457006C0BA1 /* PolyShape.h */,
+				D958BB011C374457006C0BA1 /* SegmentShape.h */,
+				D958BB021C374457006C0BA1 /* Shape.h */,
+				D958BB031C374457006C0BA1 /* Space.h */,
+				D99FC5191C410ECA009364FA /* DampedRotarySpring.h */,
+				D99FC51A1C410ECA009364FA /* DampedSpring.h */,
+				D99FC51B1C410ECA009364FA /* GearJoint.h */,
+				D99FC51C1C410ECA009364FA /* GrooveJoint.h */,
+				D99FC51D1C410ECA009364FA /* PinJoint.h */,
+				D99FC51E1C410ECA009364FA /* SimpleMotor.h */,
+				D99FC51F1C410ECA009364FA /* SlideJoint.h */,
+				D99FC5201C410ECA009364FA /* PivotJoint.h */,
+				D99FC5211C410ECA009364FA /* RatchetJoint.h */,
+				D99FC5221C410ECA009364FA /* RotaryLimitJoint.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		D958BB061C374458006C0BA1 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D958BB071C374458006C0BA1 /* Arbiter.cpp */,
+				D958BB081C374458006C0BA1 /* Body.cpp */,
+				D958BB091C374458006C0BA1 /* BoundingBox.cpp */,
+				D958BB0A1C374458006C0BA1 /* CircleShape.cpp */,
+				D958BB0B1C374458006C0BA1 /* Constraint.cpp */,
+				D958BB0C1C374458006C0BA1 /* LayerMask.cpp */,
+				D958BB0D1C374458006C0BA1 /* PolyShape.cpp */,
+				D958BB0E1C374458006C0BA1 /* SegmentShape.cpp */,
+				D958BB0F1C374458006C0BA1 /* Shape.cpp */,
+				D958BB101C374458006C0BA1 /* Space.cpp */,
+				D99FC5051C410EB7009364FA /* DampedRotarySpring.cpp */,
+				D99FC5061C410EB7009364FA /* DampedSpring.cpp */,
+				D99FC5071C410EB7009364FA /* GearJoint.cpp */,
+				D99FC5081C410EB7009364FA /* GrooveJoint.cpp */,
+				D99FC5091C410EB7009364FA /* PinJoint.cpp */,
+				D99FC50A1C410EB7009364FA /* PivotJoint.cpp */,
+				D99FC50B1C410EB7009364FA /* RatchetJoint.cpp */,
+				D99FC50C1C410EB7009364FA /* RotaryLimitJoint.cpp */,
+				D99FC50D1C410EB7009364FA /* SimpleMotor.cpp */,
+				D99FC50E1C410EB7009364FA /* SlideJoint.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D958BACC1C374412006C0BA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99FC5231C410ECA009364FA /* DampedRotarySpring.h in Headers */,
+				D958BB2B1C374458006C0BA1 /* cpSpace.h in Headers */,
+				D958BB271C374458006C0BA1 /* cpRotaryLimitJoint.h in Headers */,
+				D958BB191C374458006C0BA1 /* cpBody.h in Headers */,
+				D958BB321C374458006C0BA1 /* BoundingBox.h in Headers */,
+				D958BB221C374458006C0BA1 /* cpPivotJoint.h in Headers */,
+				D958BB361C374458006C0BA1 /* PolyShape.h in Headers */,
+				D958BB281C374458006C0BA1 /* cpShape.h in Headers */,
+				D958BB261C374458006C0BA1 /* cpRobust.h in Headers */,
+				D99FC5291C410ECA009364FA /* SlideJoint.h in Headers */,
+				D958BB131C374458006C0BA1 /* chipmunk_private.h in Headers */,
+				D958BB2E1C374458006C0BA1 /* cpVect.h in Headers */,
+				D958BB161C374458006C0BA1 /* chipmunk_unsafe.h in Headers */,
+				D958BB1C1C374458006C0BA1 /* cpDampedSpring.h in Headers */,
+				D958BB311C374458006C0BA1 /* Body.h in Headers */,
+				D99FC5251C410ECA009364FA /* GearJoint.h in Headers */,
+				D958BB1F1C374458006C0BA1 /* cpHastySpace.h in Headers */,
+				D958BB171C374458006C0BA1 /* cpArbiter.h in Headers */,
+				D958BB1A1C374458006C0BA1 /* cpConstraint.h in Headers */,
+				D958BB1E1C374458006C0BA1 /* cpGrooveJoint.h in Headers */,
+				D958BB1D1C374458006C0BA1 /* cpGearJoint.h in Headers */,
+				D958BB291C374458006C0BA1 /* cpSimpleMotor.h in Headers */,
+				D958BB2A1C374458006C0BA1 /* cpSlideJoint.h in Headers */,
+				D958BB301C374458006C0BA1 /* Arbiter.h in Headers */,
+				D99FC52A1C410ECA009364FA /* PivotJoint.h in Headers */,
+				D99FC5271C410ECA009364FA /* PinJoint.h in Headers */,
+				D99FC5241C410ECA009364FA /* DampedSpring.h in Headers */,
+				D958BB331C374458006C0BA1 /* CircleShape.h in Headers */,
+				D958BB181C374458006C0BA1 /* cpBB.h in Headers */,
+				D958BB251C374458006C0BA1 /* cpRatchetJoint.h in Headers */,
+				D99FC5281C410ECA009364FA /* SimpleMotor.h in Headers */,
+				D958BB111C374458006C0BA1 /* chipmunk.h in Headers */,
+				D958BB391C374458006C0BA1 /* Space.h in Headers */,
+				D958BB141C374458006C0BA1 /* chipmunk_structs.h in Headers */,
+				D958BB1B1C374458006C0BA1 /* cpDampedRotarySpring.h in Headers */,
+				D958BB201C374458006C0BA1 /* cpMarch.h in Headers */,
+				D958BB371C374458006C0BA1 /* SegmentShape.h in Headers */,
+				D99FC5261C410ECA009364FA /* GrooveJoint.h in Headers */,
+				D958BB241C374458006C0BA1 /* cpPolyShape.h in Headers */,
+				D99FC52B1C410ECA009364FA /* RatchetJoint.h in Headers */,
+				D958BB381C374458006C0BA1 /* Shape.h in Headers */,
+				D958BB211C374458006C0BA1 /* cpPinJoint.h in Headers */,
+				D958BB121C374458006C0BA1 /* chipmunk_ffi.h in Headers */,
+				D958BB351C374458006C0BA1 /* LayerMask.h in Headers */,
+				D958BB231C374458006C0BA1 /* cpPolyline.h in Headers */,
+				D958BB151C374458006C0BA1 /* chipmunk_types.h in Headers */,
+				D99FC52C1C410ECA009364FA /* RotaryLimitJoint.h in Headers */,
+				D958BB341C374458006C0BA1 /* Constraint.h in Headers */,
+				D958BB2D1C374458006C0BA1 /* cpTransform.h in Headers */,
+				D958BB2C1C374458006C0BA1 /* cpSpatialIndex.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D958BACD1C374412006C0BA1 /* CppMunk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D958BAD21C374412006C0BA1 /* Build configuration list for PBXNativeTarget "CppMunk" */;
+			buildPhases = (
+				D958BACA1C374412006C0BA1 /* Sources */,
+				D958BACB1C374412006C0BA1 /* Frameworks */,
+				D958BACC1C374412006C0BA1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CppMunk;
+			productName = CppMunk;
+			productReference = D958BACE1C374412006C0BA1 /* libCppMunk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D958BAC61C374411006C0BA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "The Drudgerist";
+				TargetAttributes = {
+					D958BACD1C374412006C0BA1 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D958BAC91C374411006C0BA1 /* Build configuration list for PBXProject "CppMunk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D958BAC51C374411006C0BA1;
+			productRefGroup = D958BACF1C374412006C0BA1 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D958BAF71C374457006C0BA1 /* Products */;
+					ProjectRef = D958BAF61C374457006C0BA1 /* CppMunk.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D958BACD1C374412006C0BA1 /* CppMunk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D958BACA1C374412006C0BA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D99FC5181C410EB7009364FA /* SlideJoint.cpp in Sources */,
+				D99FC5121C410EB7009364FA /* GrooveJoint.cpp in Sources */,
+				D958BB401C374458006C0BA1 /* LayerMask.cpp in Sources */,
+				D958BB421C374458006C0BA1 /* SegmentShape.cpp in Sources */,
+				D99FC5131C410EB7009364FA /* PinJoint.cpp in Sources */,
+				D958BB3C1C374458006C0BA1 /* Body.cpp in Sources */,
+				D99FC5141C410EB7009364FA /* PivotJoint.cpp in Sources */,
+				D99FC5101C410EB7009364FA /* DampedSpring.cpp in Sources */,
+				D958BB441C374458006C0BA1 /* Space.cpp in Sources */,
+				D958BB411C374458006C0BA1 /* PolyShape.cpp in Sources */,
+				D99FC5161C410EB7009364FA /* RotaryLimitJoint.cpp in Sources */,
+				D958BB3B1C374458006C0BA1 /* Arbiter.cpp in Sources */,
+				D99FC5151C410EB7009364FA /* RatchetJoint.cpp in Sources */,
+				D958BB3D1C374458006C0BA1 /* BoundingBox.cpp in Sources */,
+				D99FC50F1C410EB7009364FA /* DampedRotarySpring.cpp in Sources */,
+				D99FC5111C410EB7009364FA /* GearJoint.cpp in Sources */,
+				D958BB431C374458006C0BA1 /* Shape.cpp in Sources */,
+				D99FC5171C410EB7009364FA /* SimpleMotor.cpp in Sources */,
+				D958BB3F1C374458006C0BA1 /* Constraint.cpp in Sources */,
+				D958BB3E1C374458006C0BA1 /* CircleShape.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D958BAD01C374412006C0BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D958BAD11C374412006C0BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D958BAD31C374412006C0BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/chipmunk",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D958BAD41C374412006C0BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/chipmunk",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D958BAC91C374411006C0BA1 /* Build configuration list for PBXProject "CppMunk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D958BAD01C374412006C0BA1 /* Debug */,
+				D958BAD11C374412006C0BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D958BAD21C374412006C0BA1 /* Build configuration list for PBXNativeTarget "CppMunk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D958BAD31C374412006C0BA1 /* Debug */,
+				D958BAD41C374412006C0BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D958BAC61C374411006C0BA1 /* Project object */;
+}
