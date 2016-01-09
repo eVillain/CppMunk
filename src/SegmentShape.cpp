@@ -1,11 +1,12 @@
 #include "SegmentShape.h"
+#include "Body.h"
 
 namespace Chipmunk
 {
     SegmentShape::SegmentShape(std::shared_ptr<Body> body,
                                cpVect a, cpVect b,
                                cpFloat radius) :
-    Shape(cpSegmentShapeNew(body ? (body->getBody()) :
+    Shape(cpSegmentShapeNew(body ? (*body) :
                                     (cpBody*)NULL, a, b, radius), body)
     { }
     

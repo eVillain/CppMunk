@@ -1,4 +1,5 @@
 #include "Body.h"
+#include "Shape.h"
 
 namespace Chipmunk
 {
@@ -26,4 +27,7 @@ namespace Chipmunk
         if (_body != NULL)
             cpBodyFree(_body);
     }
+    
+    void Body::activateStatic(std::shared_ptr<Shape> filter) { cpBodyActivateStatic(_body, *filter);
+    };
 }

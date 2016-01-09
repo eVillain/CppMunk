@@ -156,7 +156,7 @@ namespace Chipmunk
         return findShape(rtn);
     }
     
-    std::shared_ptr<Shape> Space::pointQueryFirst(cpVect p,
+    std::shared_ptr<Shape> Space::pointQueryNearest(cpVect p,
                                                   LayerMask layers,
                                                   cpGroup group) const
     {

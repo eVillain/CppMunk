@@ -1,5 +1,6 @@
 #include "Shape.h"
 #include "Body.h"
+#include "BoundingBox.h"
 
 namespace Chipmunk
 {
@@ -17,6 +18,12 @@ namespace Chipmunk
     Shape::operator cpShape*() const
     {
         return _shape;
+    }
+    
+    void Shape::setBody(std::shared_ptr<Body> b)
+    {
+        cpShapeSetBody(_shape, b ? (*b) : (cpBody*)0);
+        _body = b;
     }
     
     bool Shape::pointQuery(cpVect p) const
@@ -42,14 +49,14 @@ namespace Chipmunk
         return BoundingBox(cpShapeCacheBB(_shape));
     }
     
+    BoundingBox Shape::updateBoundingBox(cpTransform transform)
+    {
+        return BoundingBox(cpShapeUpdate(_shape, transform));
+    }
+    
     BoundingBox Shape::getBoundingBox()
     {
         return BoundingBox(cpShapeGetBB(_shape));
-    }
-
-    void Shape::setBody(std::shared_ptr<Body> b) {
-        cpShapeSetBody(_shape, b ? (*b) : (cpBody*)0);
-        _body = b;
     }
 }
 

@@ -11,8 +11,11 @@ namespace Chipmunk
     public:
         PolyShape(std::shared_ptr<Body>, const std::vector<cpVect>& verts);
         
-        int getNumVerts() const { return cpPolyShapeGetCount(_shape); };
+        /// Get the number of verts in a polygon shape.
+        int getCount() const { return cpPolyShapeGetCount(_shape); };
+        /// Get the @c ith vertex of a polygon shape.
         cpVect getVert(int i) { return cpPolyShapeGetVert(_shape, i); };
+        /// Get the radius of a polygon shape.
         cpFloat getRadius() { return cpPolyShapeGetRadius(_shape); };
     };
 }

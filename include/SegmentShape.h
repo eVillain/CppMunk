@@ -15,10 +15,16 @@ namespace Chipmunk
                      cpVect b,
                      cpFloat radius);
         
+        /// Let Chipmunk know about the geometry of adjacent segments to avoid colliding with endcaps.
         void setNeighbors(std::shared_ptr<Shape> shape, cpVect prev, cpVect next);
+        
+        /// Get the first endpoint of a segment shape.
         cpVect getA(const std::shared_ptr<Shape> shape);
+        /// Get the second endpoint of a segment shape.
         cpVect getB(const std::shared_ptr<Shape> shape);
+        /// Get the normal of a segment shape.
         cpVect getNormal(const std::shared_ptr<Shape> shape);
+        /// Get the first endpoint of a segment shape.
         cpFloat getRadius(const std::shared_ptr<Shape> shape);
     };
 }
